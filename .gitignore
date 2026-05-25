@@ -1,0 +1,34 @@
+# 依赖
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 构建产物
+client/dist/
+
+# 运行时缓存
+server/cache_data.json
+
+# 环境变量（含 Token 等敏感信息）
+.env
+.env.local
+.env.*.local
+*.env
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志
+*.log
+npm-debug.log*
+
+# CloudBase 配置（含环境 ID，可选提交）
+cloudbaserc.json
